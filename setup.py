@@ -19,6 +19,7 @@ except ImportError:
     from distutils.core import setup
 import sys
 import os
+import re
 
 
 if sys.argv[-1] == "build":
